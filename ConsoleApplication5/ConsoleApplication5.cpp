@@ -2,11 +2,14 @@
 //
 
 #include <iostream>
+void foo()
+{
+    std::cout << "Another Hello\n";
+}
 
 int main()
 {
     std::cout << "Hello World!\n";
-    std::cout << "Another Hello\n";
     std::cout << "Another Another commit\n";
 }
 
